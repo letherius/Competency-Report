@@ -1,0 +1,156 @@
+body{
+    background-color: black;
+    color: orange;
+    font-family:'Lato', sans-serif;
+    text-align: center;
+}
+
+h1{
+text-transform: uppercase;
+font-size: 24px;
+font-weight: bold;
+text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    display: block;
+    background-color: gray;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+header.site-header{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.my-photo{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 5px solid orange; 
+    padding: 3px;
+    opacity: 0.7;
+}
+main.site-main{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.title-name{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: orange;
+    font-size: 50px;
+}
+
+.title-greeting{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    text-transform:uppercase ;
+    font-size: 30px;
+    text-decoration: dotted;
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+}
+.box{
+    background-color: none;
+    width: 500px;
+    padding: 10px;
+    margin: 30px;
+}
+
+.degree-header{
+    display: flex;
+    align-items: center;
+}
+
+.degree-header i{
+    border: 2px solid lime;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.box p{
+    font-size: 14px;
+}
+
+.degree-title{
+    text-transform: uppercase;
+    color: orangered;
+    word-spacing: 3px;
+    font-weight: 300;
+}
+.menu-social{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menu-social i{
+font-size: 30px;
+margin-right: 20px;
+}
+
+.fa-linkedin{
+    color: blue;
+}
+
+.fa-youtube{
+    color: red;
+}
+
+.fa-researchgate{
+    color: aqua;
+}
+
+.contact-icon{
+    margin-right: -1500px;
+    margin-top: -570px;
+}
+
+.contact-icon i{
+    font-size: 100px;
+    margin: 30px;
+}
+
+.fa-envelope{
+color: white;
+}
+
+.fa-phone{
+
+}
+
+.fa-fax{
+
+}
